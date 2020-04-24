@@ -1,8 +1,8 @@
-##Prueba backend SunMedia
+## Backend test SunMedia
 
 Solution to the technical test.
 
-##How to check the tests
+## How to check the tests
 
 Start docker environment
  
