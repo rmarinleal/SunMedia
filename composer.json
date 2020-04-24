@@ -1,0 +1,18 @@
+{
+  "name": "sunmedia/test-backend",
+  "autoload": {
+    "psr-4": {
+      "SunMedia\\": "src/"
+    }
+  },
+  "require": {
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "SunMedia\\Tests\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.4"
+  }
+}

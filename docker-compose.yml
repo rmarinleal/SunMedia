@@ -1,0 +1,12 @@
+version: "3.1"
+services:
+    php-server:
+      container_name: php-server
+      build:
+        dockerfile: Dockerfile
+        context: .
+      working_dir: /var/www/html
+      volumes:
+        - .:/var/www/html
+      ports:
+        - "8000:80"
